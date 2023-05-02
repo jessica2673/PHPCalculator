@@ -1,0 +1,45 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+body {
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+
+.question {
+    display: flex;
+    padding-bottom: 1px;
+}
+
+input[type~="text"] {
+    margin: 0px;
+    max-height: 2em;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#submit {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: grey 2px solid;
+    box-shadow: 1px 2px 0px 0px darkslategrey;
+}
+
+#submit:hover {
+    background-color: rgb(151, 151, 151);
+}
+
+input[type~="radio"] {
+    height: 1em;
+    width: 4%;
+}
+
+.select {
+    font-size: 4vh;
+}
